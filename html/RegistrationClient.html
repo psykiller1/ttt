@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios 를 이용한 페이지간 데이터 통신 및 페이지 전환</title>
+
+
+    <style>
+        input {
+            background-color: azure;
+            border: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="../javascript/RegistrationClient.js"></script>
+</head>
+
+<body>
+    <h1>고객 정보 등록</h1>
+
+    <div class="clientInfo">
+        <div>
+            <label>고객명 :
+                <input type="text" name="clientName" readonly>
+            </label>
+        </div>
+        <div>
+            <label>고객번호 :
+                <input type="text" name="clinetNum" readonly>
+            </label>
+        </div>
+        <div>
+            <label>고객주소 :
+                <input type="text" name="clientAddr" readonly>
+            </label>
+        </div>
+    </div>
+</body>
+
+</html>

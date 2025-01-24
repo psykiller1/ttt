@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>form 없이 Axios 를 통한 페이지간 데이터 전송 및 수신</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script defer src="./javascript/index.js"></script>
+</head>
+
+<body>
+	<h1>고객 정보 입력</h1>
+
+	<div class="inputClientInfo">
+		<div>
+			<label>고객명 :
+				<input type="text" name="clientName">
+			</label>
+		</div>
+		<div>
+			<label>고객번호 :
+				<input type="text" name="clinetNum">
+			</label>
+		</div>
+		<div>
+			<label>고객주소 :
+				<input type="text" name="clientAddr">
+			</label>
+		</div>
+
+		<button type="button" name="submitBtn">전송</button>
+	</div>
+</body>
+
+</html>
